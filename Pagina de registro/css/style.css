@@ -1,0 +1,165 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family:'ClearSans-Bold';
+}
+
+body{
+background-image: url(https://images6.alphacoders.com/110/1107257.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:10rem;
+}
+
+.card-roxo{
+background-color:#5e17eb;
+width:30rem;
+height:40rem;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+border-radius: 20px 0px 0px 20px;
+}
+
+.titulo{
+color:white;
+margin:1rem 0rem;
+font-size:20px;
+}
+
+.inputes
+input[type=text],
+input[type=email],
+input[type=password]{
+margin:10px 0px;
+width:20rem ;
+padding:12px 40px;
+border-radius:20rem;
+border:none;
+}
+
+.input-button{
+display:flex;
+justify-content:center;
+}
+
+.inputes input[type=button]{
+margin:15px 0px;
+width:10rem;
+padding:12px 30px;
+border-radius:20rem;
+border:none;
+color:#5e17eb;
+font-size:15px;
+cursor:pointer;
+font-weight:bold;
+}
+
+
+.inputes i{
+position:relative;
+left:30px;
+top:2px;
+}
+
+.alternativa-register{
+display:flex;
+flex-direction:column;
+align-items:center;
+color:white;
+font-size:10px;
+}
+
+.alternativa-register .icons{
+display:flex;
+font-size:25px;
+gap:20px;
+margin:20px 0px;
+}
+
+.alternativa-register a{
+color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-branco{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color:white;
+color:#044557;
+width:50rem;
+height:40rem;
+font-size:16px;
+border-radius: 0px 20px 20px 0px;
+}
+
+
+.conta {
+display: inline; 
+text-align: center;
+margin-top: 12rem;
+margin-bottom: 8rem;
+color: #5e17eb;
+}
+
+.conta h1 {
+    font-size: 39px;
+}
+.linque  {
+    border: 1px  solid;
+    padding: 10px;
+    width: 13rem;
+    margin-top: 2rem;
+    border-radius: 20rem;
+    margin-left: 60px;
+    background-color: #5e17eb;
+}
+
+.linque a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textos  {
+padding: 5rem 2rem;
+color: #5e17eb;
+}
+
+.textos p {
+    color: black;
+    font-size: 17px;
+    font-weight:lighter;
+   
+}
+.textos-sobre{
+display:flex;
+
+}
+
